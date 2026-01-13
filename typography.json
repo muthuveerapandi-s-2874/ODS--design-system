@@ -1,0 +1,347 @@
+{
+  "designSystem": {
+    "name": "ODS Design System",
+    "figmaFile": "uddrCFCslgueV4AzTXScnP",
+    "nodeId": "1942:136",
+    "url": "https://www.figma.com/design/uddrCFCslgueV4AzTXScnP/ODS_Guideline?node-id=1942-136"
+  },
+  "fontFamily": {
+    "name": "Zoho Puvi",
+    "fallback": "sans-serif"
+  },
+  "fontWeights": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "headings": {
+    "h1": {
+      "fontSize": "88px",
+      "lineHeight": "96px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-3.52px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-4%",
+          "tracking": "-3.52px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-2.64px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-2.64px"
+        }
+      }
+    },
+    "h2": {
+      "fontSize": "80px",
+      "lineHeight": "88px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-1.6px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-3%",
+          "tracking": "-1.6px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-1.6px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-1.6px"
+        }
+      }
+    },
+    "h3": {
+      "fontSize": "72px",
+      "lineHeight": "80px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-1.44px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-4%",
+          "tracking": "-2.88px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-2.16px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-2.16px"
+        }
+      }
+    },
+    "h4": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-1.28px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-4%",
+          "tracking": "-2.56px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-1.92px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-1.92px"
+        }
+      }
+    },
+    "h5": {
+      "fontSize": "56px",
+      "lineHeight": "64px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-2.24px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-3%",
+          "tracking": "-1.68px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-1.68px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-1.68px"
+        }
+      }
+    },
+    "h6": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-1.92px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-3%",
+          "tracking": "-0.96px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-1.44px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-3%",
+          "tracking": "-1.44px"
+        }
+      }
+    }
+  },
+  "paragraphs": {
+    "large": {
+      "fontSize": "40px",
+      "lineHeight": "48px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-4%",
+          "tracking": "-1.6px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-3%",
+          "tracking": "-1.2px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-0.8px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-2%",
+          "tracking": "-0.8px"
+        }
+      }
+    },
+    "medium": {
+      "fontSize": "32px",
+      "lineHeight": "40px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-3%",
+          "tracking": "-0.96px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-3%",
+          "tracking": "-0.96px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-3%",
+          "tracking": "-0.96px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-2%",
+          "tracking": "-0.64px"
+        }
+      }
+    },
+    "regular": {
+      "fontSize": "24px",
+      "lineHeight": "32px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-2%",
+          "tracking": "-0.48px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-1%",
+          "tracking": "-0.24px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-1%",
+          "tracking": "-0.24px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-1%",
+          "tracking": "-0.24px"
+        }
+      }
+    },
+    "small": {
+      "fontSize": "20px",
+      "lineHeight": "28px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-2%",
+          "tracking": "-0.4px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-1%",
+          "tracking": "-0.2px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-1%",
+          "tracking": "-0.2px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-1%",
+          "tracking": "-0.2px"
+        }
+      }
+    },
+    "xSmall": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-2%",
+          "tracking": "-0.32px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-1%",
+          "tracking": "-0.16px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "-1%",
+          "tracking": "-0.16px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "-1%",
+          "tracking": "-0.16px"
+        }
+      }
+    },
+    "tiny": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "fontFamily": "Zoho Puvi",
+      "variants": {
+        "regular": {
+          "fontWeight": 400,
+          "letterSpacing": "-1%",
+          "tracking": "-0.12px"
+        },
+        "medium": {
+          "fontWeight": 500,
+          "letterSpacing": "-1%",
+          "tracking": "-0.12px"
+        },
+        "semibold": {
+          "fontWeight": 600,
+          "letterSpacing": "0%",
+          "tracking": "0px"
+        },
+        "bold": {
+          "fontWeight": 700,
+          "letterSpacing": "0%",
+          "tracking": "0px"
+        }
+      }
+    }
+  }
+}
+
