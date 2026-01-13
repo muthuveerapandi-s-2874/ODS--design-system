@@ -1,0 +1,318 @@
+{
+  "designSystem": {
+    "name": "ODS Design System",
+    "figmaFile": "uddrCFCslgueV4AzTXScnP",
+    "nodeId": "4754:1968",
+    "url": "https://www.figma.com/design/uddrCFCslgueV4AzTXScnP/ODS_Guideline?node-id=4754-1968"
+  },
+  "variants": {
+    "primary": {
+      "name": "Primary",
+      "description": "Solid blue button for primary actions",
+      "sizes": {
+        "xs": {
+          "padding": "12px 16px",
+          "gap": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "sm": {
+          "padding": "16px 24px",
+          "gap": "12px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "56px"
+        },
+        "md": {
+          "padding": "20px 24px",
+          "gap": "12px",
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "lg": {
+          "padding": "24px 32px",
+          "gap": "12px",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "borderRadius": "4px",
+          "height": "auto"
+        }
+      },
+      "states": {
+        "default": {
+          "backgroundColor": "#0047FF",
+          "color": "#FFFFFF",
+          "border": "none"
+        },
+        "hover": {
+          "backgroundColor": "#003ACC",
+          "color": "#FFFFFF",
+          "border": "none",
+          "cursor": "pointer"
+        },
+        "active": {
+          "backgroundColor": "#012B99",
+          "color": "#FFFFFF",
+          "border": "none"
+        }
+      }
+    },
+    "primaryLine": {
+      "name": "Primary Line",
+      "description": "Outlined blue button for secondary primary actions",
+      "sizes": {
+        "xs": {
+          "padding": "12px 16px",
+          "gap": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "sm": {
+          "padding": "16px 24px",
+          "gap": "12px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "56px"
+        },
+        "md": {
+          "padding": "20px 24px",
+          "gap": "12px",
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "lg": {
+          "padding": "24px 32px",
+          "gap": "12px",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "borderRadius": "4px",
+          "height": "auto"
+        }
+      },
+      "states": {
+        "default": {
+          "backgroundColor": "transparent",
+          "color": "#0047FF",
+          "border": "2px solid #0047FF"
+        },
+        "hover": {
+          "backgroundColor": "rgba(7, 7, 180, 0.1)",
+          "color": "#0A0AFF",
+          "border": "2px solid rgba(10, 10, 255, 0.8)",
+          "cursor": "pointer"
+        },
+        "active": {
+          "backgroundColor": "rgba(7, 7, 180, 0.2)",
+          "color": "#0A0AFF",
+          "border": "2px solid rgba(10, 10, 255, 0.8)"
+        }
+      }
+    },
+    "secondary": {
+      "name": "Secondary",
+      "description": "Solid black button for secondary actions",
+      "sizes": {
+        "xs": {
+          "padding": "12px 16px",
+          "gap": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "sm": {
+          "padding": "16px 24px",
+          "gap": "12px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "56px"
+        },
+        "md": {
+          "padding": "20px 24px",
+          "gap": "12px",
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "lg": {
+          "padding": "24px 32px",
+          "gap": "12px",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "borderRadius": "4px",
+          "height": "auto"
+        }
+      },
+      "states": {
+        "default": {
+          "backgroundColor": "#000000",
+          "color": "#FFFFFF",
+          "border": "none"
+        },
+        "hover": {
+          "backgroundColor": "#383838",
+          "color": "#FFFFFF",
+          "border": "none",
+          "cursor": "pointer"
+        },
+        "active": {
+          "backgroundColor": "#262626",
+          "color": "#FFFFFF",
+          "border": "none"
+        }
+      }
+    },
+    "secondaryLine": {
+      "name": "Secondary Line",
+      "description": "Outlined black button for secondary outlined actions",
+      "sizes": {
+        "xs": {
+          "padding": "12px 16px",
+          "gap": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "sm": {
+          "padding": "16px 24px",
+          "gap": "12px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "56px"
+        },
+        "md": {
+          "padding": "20px 24px",
+          "gap": "12px",
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "lg": {
+          "padding": "24px 32px",
+          "gap": "12px",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "borderRadius": "4px",
+          "height": "auto"
+        }
+      },
+      "states": {
+        "default": {
+          "backgroundColor": "transparent",
+          "color": "#000000",
+          "border": "2px solid #000000"
+        },
+        "hover": {
+          "backgroundColor": "#EBEBEB",
+          "color": "#000000",
+          "border": "2px solid #000000",
+          "cursor": "pointer"
+        },
+        "active": {
+          "backgroundColor": "#D1D1D1",
+          "color": "#000000",
+          "border": "2px solid #000000"
+        }
+      }
+    },
+    "tertiary": {
+      "name": "Tertiary",
+      "description": "White button with border for tertiary actions",
+      "sizes": {
+        "xs": {
+          "padding": "12px 16px",
+          "gap": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "sm": {
+          "padding": "16px 24px",
+          "gap": "12px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "borderRadius": "4px",
+          "height": "56px"
+        },
+        "md": {
+          "padding": "20px 24px",
+          "gap": "12px",
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "borderRadius": "4px",
+          "height": "auto"
+        },
+        "lg": {
+          "padding": "24px 32px",
+          "gap": "12px",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "borderRadius": "4px",
+          "height": "auto"
+        }
+      },
+      "states": {
+        "default": {
+          "backgroundColor": "#FFFFFF",
+          "color": "#000000",
+          "border": "2px solid #000000"
+        },
+        "hover": {
+          "backgroundColor": "#F5F5F5",
+          "color": "#000000",
+          "border": "2px solid #000000",
+          "cursor": "pointer"
+        },
+        "active": {
+          "backgroundColor": "#EBEBEB",
+          "color": "#000000",
+          "border": "2px solid #000000"
+        }
+      }
+    }
+  },
+  "icon": {
+    "size": "24px",
+    "default": true,
+    "position": "right"
+  },
+  "typography": {
+    "fontFamily": "Zoho Puvi",
+    "fontWeight": 500,
+    "fontStyle": "Medium",
+    "textAlign": "center",
+    "letterSpacing": {
+      "xs": "-0.16px",
+      "sm": "-0.16px",
+      "md": "-0.2px",
+      "lg": "-0.24px"
+    }
+  },
+  "spacing": {
+    "sm3": "12px",
+    "sm4": "16px",
+    "sm5": "20px",
+    "md1": "24px",
+    "md2": "32px"
+  },
+  "borderRadius": {
+    "sm": "4px"
+  }
+}
+
