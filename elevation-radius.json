@@ -1,0 +1,103 @@
+{
+  "designSystem": {
+    "name": "ODS Design System",
+    "figmaFile": "uddrCFCslgueV4AzTXScnP",
+    "nodeId": "4754:4292",
+    "url": "https://www.figma.com/design/uddrCFCslgueV4AzTXScnP/ODS_Guideline?node-id=4754-4292"
+  },
+  "elevation": {
+    "xs": {
+      "name": "Extra Small",
+      "shadow": "0px 2px 4px 0px rgba(0, 0, 0, 0.25)",
+      "properties": {
+        "offsetX": 0,
+        "offsetY": 2,
+        "blur": 4,
+        "spread": 0,
+        "color": "#000000",
+        "opacity": 0.25
+      },
+      "css": "box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);"
+    },
+    "small": {
+      "name": "Small",
+      "shadow": "0px 16px 24px -4px rgba(0, 0, 0, 0.25)",
+      "properties": {
+        "offsetX": 0,
+        "offsetY": 16,
+        "blur": 24,
+        "spread": -4,
+        "color": "#000000",
+        "opacity": 0.25
+      },
+      "css": "box-shadow: 0px 16px 24px -4px rgba(0, 0, 0, 0.25);"
+    },
+    "medium": {
+      "name": "Medium",
+      "shadow": "0px 24px 48px -8px rgba(0, 0, 0, 0.25)",
+      "properties": {
+        "offsetX": 0,
+        "offsetY": 24,
+        "blur": 48,
+        "spread": -8,
+        "color": "#000000",
+        "opacity": 0.25
+      },
+      "css": "box-shadow: 0px 24px 48px -8px rgba(0, 0, 0, 0.25);"
+    },
+    "large": {
+      "name": "Large",
+      "shadow": "0px 40px 80px -16px rgba(0, 0, 0, 0.16)",
+      "properties": {
+        "offsetX": 0,
+        "offsetY": 40,
+        "blur": 80,
+        "spread": -16,
+        "color": "#000000",
+        "opacity": 0.16
+      },
+      "css": "box-shadow: 0px 40px 80px -16px rgba(0, 0, 0, 0.16);"
+    },
+    "xlarge": {
+      "name": "Extra Large",
+      "shadow": "12px 56px 112px -20px rgba(0, 0, 0, 0.18)",
+      "properties": {
+        "offsetX": 12,
+        "offsetY": 56,
+        "blur": 112,
+        "spread": -20,
+        "color": "#000000",
+        "opacity": 0.18
+      },
+      "css": "box-shadow: 12px 56px 112px -20px rgba(0, 0, 0, 0.18);"
+    }
+  },
+  "radius": {
+    "xs": {
+      "name": "Extra Small",
+      "value": "2px",
+      "pixels": 2
+    },
+    "small": {
+      "name": "Small",
+      "value": "4px",
+      "pixels": 4
+    },
+    "medium": {
+      "name": "Medium",
+      "value": "8px",
+      "pixels": 8
+    },
+    "large": {
+      "name": "Large",
+      "value": "16px",
+      "pixels": 16
+    },
+    "xlarge": {
+      "name": "Extra Large",
+      "value": "160px",
+      "pixels": 160
+    }
+  }
+}
+
