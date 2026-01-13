@@ -1,0 +1,77 @@
+{
+  "designSystem": {
+    "name": "ODS Design System",
+    "figmaFile": "uddrCFCslgueV4AzTXScnP",
+    "nodeId": "1:2",
+    "url": "https://www.figma.com/design/uddrCFCslgueV4AzTXScnP/ODS_Guideline?node-id=1-2"
+  },
+  "breakpoints": {
+    "desktop": {
+      "min": 1720,
+      "max": null,
+      "columns": 12,
+      "columnWidth": 88,
+      "gutter": 24,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 1720
+    },
+    "desktopMedium": {
+      "min": 1400,
+      "max": 1720,
+      "columns": 12,
+      "columnWidth": 88,
+      "gutter": 24,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 1400
+    },
+    "desktopSmall": {
+      "min": 1200,
+      "max": 1400,
+      "columns": 12,
+      "columnWidth": 56,
+      "gutter": 32,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 1200
+    },
+    "tablet": {
+      "min": 992,
+      "max": 1200,
+      "columns": 12,
+      "columnWidth": 48,
+      "gutter": 16,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 992
+    },
+    "tabletSmall": {
+      "min": 768,
+      "max": 992,
+      "columns": 8,
+      "columnWidth": 64,
+      "gutter": 16,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 768
+    },
+    "mobile": {
+      "min": 576,
+      "max": 768,
+      "columns": 4,
+      "columnWidth": 104,
+      "gutter": 16,
+      "margin": 40,
+      "type": "center",
+      "containerWidth": 576
+    }
+  },
+  "defaults": {
+    "columns": 12,
+    "gutter": 24,
+    "margin": 40,
+    "type": "center"
+  }
+}
+
