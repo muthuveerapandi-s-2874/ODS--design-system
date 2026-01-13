@@ -1,0 +1,190 @@
+{
+  "designSystem": {
+    "name": "ODS Design System",
+    "source": "Sizing tokens from Figma design tokens",
+    "note": "These tokens reference Space tokens. Actual values are resolved from Space token definitions."
+  },
+  "tokens": {
+    "Sm- 1": {
+      "value": "{Space.Sm- 1}",
+      "type": "dimension",
+      "reference": "Space.Sm- 1"
+    },
+    "Sm- 2": {
+      "value": "{Space.Sm- 2}",
+      "type": "dimension",
+      "reference": "Space.Sm- 2"
+    },
+    "Sm- 3": {
+      "value": "{Space.Sm- 3}",
+      "type": "dimension",
+      "reference": "Space.Sm- 3"
+    },
+    "Sm- 4": {
+      "value": "{Space.Sm- 4}",
+      "type": "dimension",
+      "reference": "Space.Sm- 4"
+    },
+    "Sm- 5": {
+      "value": "{Space.Sm- 5}",
+      "type": "dimension",
+      "reference": "Space.Sm- 5"
+    },
+    "Md- 1": {
+      "value": "{Space.Md-1}",
+      "type": "dimension",
+      "reference": "Space.Md-1"
+    },
+    "Md- 2": {
+      "value": "{Space.Md- 2}",
+      "type": "dimension",
+      "reference": "Space.Md- 2"
+    },
+    "Md- 3": {
+      "value": "{Space.Md- 3}",
+      "type": "dimension",
+      "reference": "Space.Md- 3"
+    },
+    "Md- 4": {
+      "value": "{Space.Md- 4}",
+      "type": "dimension",
+      "reference": "Space.Md- 4"
+    },
+    "Md- 5": {
+      "value": "{Space.Md- 5}",
+      "type": "dimension",
+      "reference": "Space.Md- 5"
+    },
+    "Md- 6": {
+      "value": "{Space.Md- 6}",
+      "type": "dimension",
+      "reference": "Space.Md- 6"
+    },
+    "Md- 7": {
+      "value": "{Space.Md- 7}",
+      "type": "dimension",
+      "reference": "Space.Md- 7"
+    },
+    "Md- 8": {
+      "value": "{Space.Md- 8}",
+      "type": "dimension",
+      "reference": "Space.Md- 8"
+    },
+    "Lg- 1": {
+      "value": "{Space.Lg- 1}",
+      "type": "dimension",
+      "reference": "Space.Lg- 1"
+    },
+    "Lg- 2": {
+      "value": "{Space.Lg- 2}",
+      "type": "dimension",
+      "reference": "Space.Lg- 2"
+    },
+    "Lg- 3": {
+      "value": "{Space.Lg- 3}",
+      "type": "dimension",
+      "reference": "Space.Lg- 3"
+    },
+    "Lg- 4": {
+      "value": "{Space.Lg- 4}",
+      "type": "dimension",
+      "reference": "Space.Lg- 4"
+    },
+    "Lg- 5": {
+      "value": "{Space.Lg- 5}",
+      "type": "dimension",
+      "reference": "Space.Lg- 5"
+    },
+    "Lg- 6": {
+      "value": "{Space.Lg- 6}",
+      "type": "dimension",
+      "reference": "Space.Lg- 6"
+    },
+    "Lg- 7": {
+      "value": "{Space.Lg- 7}",
+      "type": "dimension",
+      "reference": "Space.Lg- 7"
+    },
+    "Lg- 8": {
+      "value": "{Space.Lg- 8}",
+      "type": "dimension",
+      "reference": "Space.Lg- 8"
+    },
+    "Lg- 9": {
+      "value": "{Space.Lg- 9}",
+      "type": "dimension",
+      "reference": "Space.Lg- 9"
+    },
+    "Lg- 10": {
+      "value": "{Space.Lg- 10}",
+      "type": "dimension",
+      "reference": "Space.Lg- 10"
+    },
+    "Xl- 1": {
+      "value": "{Space.Xl- 1}",
+      "type": "dimension",
+      "reference": "Space.Xl- 1"
+    },
+    "Xl- 2": {
+      "value": "{Space.Xl- 2}",
+      "type": "dimension",
+      "reference": "Space.Xl- 2"
+    },
+    "Xl- 3": {
+      "value": "{Space.Xl- 3}",
+      "type": "dimension",
+      "reference": "Space.Xl- 3"
+    },
+    "Xl- 4": {
+      "value": "{Space.Xl- 4}",
+      "type": "dimension",
+      "reference": "Space.Xl- 4"
+    },
+    "Xl- 5": {
+      "value": "{Space.Xl- 5}",
+      "type": "dimension",
+      "reference": "Space.Xl- 5"
+    },
+    "Xl- 6": {
+      "value": "{Space.Xl- 6}",
+      "type": "dimension",
+      "reference": "Space.Xl- 6"
+    },
+    "Xl- 7": {
+      "value": "{Space.Xl- 7}",
+      "type": "dimension",
+      "reference": "Space.Xl- 7"
+    },
+    "Xl- 8": {
+      "value": "{Space.Xl- 8}",
+      "type": "dimension",
+      "reference": "Space.Xl- 8"
+    },
+    "Xl- 9": {
+      "value": "{Space.Xl- 9}",
+      "type": "dimension",
+      "reference": "Space.Xl- 9"
+    },
+    "Xl- 10": {
+      "value": "{Space.Xl- 10}",
+      "type": "dimension",
+      "reference": "Space.Xl- 10"
+    }
+  },
+  "categories": {
+    "small": ["Sm- 1", "Sm- 2", "Sm- 3", "Sm- 4", "Sm- 5"],
+    "medium": ["Md- 1", "Md- 2", "Md- 3", "Md- 4", "Md- 5", "Md- 6", "Md- 7", "Md- 8"],
+    "large": ["Lg- 1", "Lg- 2", "Lg- 3", "Lg- 4", "Lg- 5", "Lg- 6", "Lg- 7", "Lg- 8", "Lg- 9", "Lg- 10"],
+    "xlarge": ["Xl- 1", "Xl- 2", "Xl- 3", "Xl- 4", "Xl- 5", "Xl- 6", "Xl- 7", "Xl- 8", "Xl- 9", "Xl- 10"]
+  },
+  "knownValues": {
+    "note": "These values are inferred from component usage. Actual values should come from Space tokens.",
+    "Sm- 3": "12px",
+    "Sm- 4": "16px",
+    "Sm- 5": "20px",
+    "Md- 1": "24px",
+    "Md- 2": "32px",
+    "Md- 5": "56px"
+  }
+}
+
