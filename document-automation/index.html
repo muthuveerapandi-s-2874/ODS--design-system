@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Automation | Zoho Writer</title>
+  <meta name="description" content="A document automation platform that businesses love. Generate personalized documents, collect data and e-signatures, and automate your paperwork.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#" class="nav__logo" aria-label="Zoho Writer Home">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="#0047FF"/>
+            <path d="M8 12L14 20H8L14 12H20L14 20H20L14 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Zoho <strong>Writer</strong></span>
+        </a>
+        <ul class="nav__links" role="list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#esignature">eSignature</a></li>
+          <li><a href="#merge">Merge</a></li>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#" class="nav__link--pricing">Pricing</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a href="#" class="btn btn--secondary-line btn--xs">Sign In</a>
+          <a href="#" class="btn btn--primary btn--sm">Get Started Free</a>
+        </div>
+        <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero__badge">
+          <span class="badge">Document Automation Platform</span>
+        </div>
+        <h1 id="hero-heading" class="hero__title">
+          Automate your documents.<br>
+          <span class="text-gradient">Accelerate your business.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Generate personalized documents in bulk, collect data and e-signatures
+          from users, and turn mountains of paperwork into streamlined digital workflows.
+        </p>
+        <div class="hero__cta">
+          <a href="#" class="btn btn--primary btn--lg">
+            Start Automating
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="btn btn--secondary-line btn--lg">Watch Demo</a>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__browser">
+            <div class="browser__bar">
+              <span class="browser__dot"></span>
+              <span class="browser__dot"></span>
+              <span class="browser__dot"></span>
+            </div>
+            <div class="browser__content">
+              <div class="doc-preview">
+                <div class="doc-preview__sidebar">
+                  <div class="sidebar__item sidebar__item--active">
+                    <div class="sidebar__icon"></div>
+                    <div class="sidebar__lines"><span></span><span></span></div>
+                  </div>
+                  <div class="sidebar__item">
+                    <div class="sidebar__icon"></div>
+                    <div class="sidebar__lines"><span></span><span></span></div>
+                  </div>
+                  <div class="sidebar__item">
+                    <div class="sidebar__icon"></div>
+                    <div class="sidebar__lines"><span></span><span></span></div>
+                  </div>
+                </div>
+                <div class="doc-preview__main">
+                  <div class="doc-line doc-line--title"></div>
+                  <div class="doc-line doc-line--subtitle"></div>
+                  <div class="doc-spacer"></div>
+                  <div class="doc-line"></div>
+                  <div class="doc-line"></div>
+                  <div class="doc-line doc-line--short"></div>
+                  <div class="doc-spacer"></div>
+                  <div class="doc-field">
+                    <span class="doc-field__label"></span>
+                    <span class="doc-field__input"></span>
+                  </div>
+                  <div class="doc-field">
+                    <span class="doc-field__label"></span>
+                    <span class="doc-field__input"></span>
+                  </div>
+                  <div class="doc-spacer"></div>
+                  <div class="doc-signature">
+                    <div class="doc-signature__box">
+                      <svg width="64" height="32" viewBox="0 0 64 32" fill="none" aria-hidden="true"><path d="M4 24C12 8 20 16 28 12S44 4 52 20" stroke="#0047FF" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="doc-preview__float doc-preview__float--merge">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2v16M2 10h16" stroke="#0047FF" stroke-width="2" stroke-linecap="round"/></svg>
+                  <span>Auto-merge</span>
+                </div>
+                <div class="doc-preview__float doc-preview__float--sign">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 16l4-4 8-8M12 4l4 4M2 18h16" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span>Signed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number">10M+</span>
+            <span class="stat__label">Documents generated</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">50K+</span>
+            <span class="stat__label">Businesses trust us</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">99.9%</span>
+            <span class="stat__label">Uptime guaranteed</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">150+</span>
+            <span class="stat__label">Countries served</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES OVERVIEW ========== -->
+    <section id="features" class="features" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 id="features-heading" class="section-title">Everything you need to automate<br>your document workflows</h2>
+          <p class="section-subtitle">From creation to signature to storage &mdash; one unified platform handles it all.</p>
+        </div>
+        <div class="features__grid">
+          <div class="feature-card feature-card--highlight">
+            <div class="feature-card__icon feature-card__icon--blue">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="4" y="4" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/><path d="M10 13h12M10 17h8M10 21h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Automation Templates</h3>
+            <p>Choose from a rich template library and start customizing instantly. Create legal documents, order forms, tax forms, insurance forms, NDAs, and more with pre-built layouts.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--green">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4v24M4 16h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>Fillable Forms &amp; PDFs</h3>
+            <p>Transform static paper forms and PDFs into interactive, fillable digital forms with fields, sign boxes, barcodes, drop-downs, and your branding.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--purple">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 8h24v16H4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 8l12 10L28 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Mail Merge</h3>
+            <p>Fetch information from multiple data sources, pre-fill documents with accurate details, and send personalized proposals, invoices, and contracts at scale.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--orange">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M12 4v8l-4 4h16l-4-4V4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="6" y="16" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>eSignature Collection</h3>
+            <p>Automate signature collection with custom workflows. Assign roles, define signing orders, and set conditions for alternate or additional signers.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--teal">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 6h16a2 2 0 012 2v16a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2z" stroke="currentColor" stroke-width="2"/><path d="M12 16l3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Data Verification</h3>
+            <p>Validate respondent data in real-time with automated pop-ups for incorrect entries. Execute formulas to calculate costs, delivery times, and more.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--pink">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/><circle cx="22" cy="10" r="4" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="22" r="4" stroke="currentColor" stroke-width="2"/><path d="M13 12l3 6M19 12l-3 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Workflow Automation</h3>
+            <p>Define post-merge and post-submission workflows to save, share, sign, and secure documents. Connect seamlessly with your existing business processes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FORM AUTOMATION SECTION ========== -->
+    <section id="forms" class="section-split section-split--reverse" aria-labelledby="forms-heading">
+      <div class="container">
+        <div class="split__layout">
+          <div class="split__content">
+            <span class="section-tag">Smart Forms</span>
+            <h2 id="forms-heading" class="section-title--sm">Turn paperwork into<br>intelligent digital forms</h2>
+            <p class="split__description">
+              Scan static paper forms or PDFs into interactive forms using AI. Add fillable fields,
+              signature boxes, barcodes, drop-downs, and custom branding elements to create
+              professional digital experiences.
+            </p>
+            <ul class="check-list" role="list">
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#E5FFE8"/><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Pre-fill templates with data from CSV, CRM, or any data source</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#E5FFE8"/><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Real-time data validation with automated error pop-ups</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#E5FFE8"/><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Execute formulas to calculate costs and delivery timelines</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#E5FFE8"/><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Share as a link or embed in your app or webpage</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn--primary btn--md">
+              Explore Forms
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <div class="split__visual">
+            <div class="form-mockup">
+              <div class="form-mockup__header">
+                <div class="form-mockup__title-bar"></div>
+                <div class="form-mockup__subtitle-bar"></div>
+              </div>
+              <div class="form-mockup__body">
+                <div class="form-group">
+                  <div class="form-label"></div>
+                  <div class="form-input"></div>
+                </div>
+                <div class="form-group">
+                  <div class="form-label"></div>
+                  <div class="form-input"></div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group form-group--half">
+                    <div class="form-label"></div>
+                    <div class="form-select">
+                      <span class="form-select__arrow"></span>
+                    </div>
+                  </div>
+                  <div class="form-group form-group--half">
+                    <div class="form-label"></div>
+                    <div class="form-input"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-label"></div>
+                  <div class="form-textarea"></div>
+                </div>
+                <div class="form-submit"></div>
+              </div>
+              <div class="form-mockup__badge">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 8l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Validated
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ESIGNATURE SECTION ========== -->
+    <section id="esignature" class="section-split section-split--dark" aria-labelledby="esign-heading">
+      <div class="container">
+        <div class="split__layout">
+          <div class="split__visual">
+            <div class="sign-flow">
+              <div class="sign-flow__step sign-flow__step--done">
+                <div class="sign-flow__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="sign-flow__info">
+                  <span class="sign-flow__name">Sarah Johnson</span>
+                  <span class="sign-flow__role">Legal Review</span>
+                </div>
+                <span class="sign-flow__status sign-flow__status--done">Signed</span>
+              </div>
+              <div class="sign-flow__connector"></div>
+              <div class="sign-flow__step sign-flow__step--done">
+                <div class="sign-flow__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 12l3 3 5-6" stroke="#03FF17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="sign-flow__info">
+                  <span class="sign-flow__name">Michael Chen</span>
+                  <span class="sign-flow__role">Finance Director</span>
+                </div>
+                <span class="sign-flow__status sign-flow__status--done">Signed</span>
+              </div>
+              <div class="sign-flow__connector"></div>
+              <div class="sign-flow__step sign-flow__step--active">
+                <div class="sign-flow__icon sign-flow__icon--pending">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="3" fill="#0047FF"/></svg>
+                </div>
+                <div class="sign-flow__info">
+                  <span class="sign-flow__name">David Park</span>
+                  <span class="sign-flow__role">CEO Approval</span>
+                </div>
+                <span class="sign-flow__status sign-flow__status--pending">Awaiting</span>
+              </div>
+              <div class="sign-flow__connector sign-flow__connector--faded"></div>
+              <div class="sign-flow__step sign-flow__step--upcoming">
+                <div class="sign-flow__icon sign-flow__icon--upcoming">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="3" fill="#919191"/></svg>
+                </div>
+                <div class="sign-flow__info">
+                  <span class="sign-flow__name">Auto-Archive</span>
+                  <span class="sign-flow__role">Post-sign action</span>
+                </div>
+                <span class="sign-flow__status sign-flow__status--upcoming">Queued</span>
+              </div>
+            </div>
+          </div>
+          <div class="split__content">
+            <span class="section-tag section-tag--light">eSignature &amp; Agreements</span>
+            <h2 id="esign-heading" class="section-title--sm section-title--light">Manage every agreement<br>from one seamless platform</h2>
+            <p class="split__description split__description--light">
+              Initiate and manage all your agreements &mdash; vendor contracts, NDAs, employment contracts,
+              and more. Set up customized workflows that automate signature collection, send reminders,
+              and give you real-time status visibility.
+            </p>
+            <ul class="check-list check-list--light" role="list">
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="rgba(0,71,255,0.2)"/><path d="M8 12l3 3 5-6" stroke="#336DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Custom signing workflows with role assignments and ordering</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="rgba(0,71,255,0.2)"/><path d="M8 12l3 3 5-6" stroke="#336DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Automated email reminders and status tracking</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="rgba(0,71,255,0.2)"/><path d="M8 12l3 3 5-6" stroke="#336DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Post-signature actions: save to folders, link to CRM, email users</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="rgba(0,71,255,0.2)"/><path d="M8 12l3 3 5-6" stroke="#336DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Rule-based signer assignments with conditional logic</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn--primary-line btn--md btn--light">
+              Explore eSignature
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DOCUMENT MERGE SECTION ========== -->
+    <section id="merge" class="section-split" aria-labelledby="merge-heading">
+      <div class="container">
+        <div class="split__layout">
+          <div class="split__content">
+            <span class="section-tag">Document Merge</span>
+            <h2 id="merge-heading" class="section-title--sm">Personalize documents<br>at scale with mail merge</h2>
+            <p class="split__description">
+              With the intuitive template builder, create professional proposals, invoices, reports,
+              and contracts. Fetch information from multiple data sources, pre-fill documents with
+              accurate information, and deliver them without errors.
+            </p>
+            <div class="merge-steps">
+              <div class="merge-step">
+                <span class="merge-step__number">01</span>
+                <div class="merge-step__content">
+                  <h4>Design your template</h4>
+                  <p>Use the drag-and-drop builder to create professional document templates with dynamic merge fields.</p>
+                </div>
+              </div>
+              <div class="merge-step">
+                <span class="merge-step__number">02</span>
+                <div class="merge-step__content">
+                  <h4>Connect your data</h4>
+                  <p>Pull data from CSV files, CRM records, databases, or any business application via API.</p>
+                </div>
+              </div>
+              <div class="merge-step">
+                <span class="merge-step__number">03</span>
+                <div class="merge-step__content">
+                  <h4>Generate &amp; deliver</h4>
+                  <p>Bulk generate unique documents for each recipient and deliver via email, download, or workflow.</p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn--primary btn--md">
+              Try Mail Merge
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <div class="split__visual">
+            <div class="merge-visual">
+              <div class="merge-visual__source">
+                <div class="data-card">
+                  <div class="data-card__header">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#0047FF" stroke-width="1.5"/><path d="M1 5h14M5 5v10M10 5v10" stroke="#0047FF" stroke-width="1.5"/></svg>
+                    <span>Data Source</span>
+                  </div>
+                  <div class="data-card__rows">
+                    <div class="data-row"><span class="data-cell"></span><span class="data-cell"></span><span class="data-cell"></span></div>
+                    <div class="data-row"><span class="data-cell"></span><span class="data-cell"></span><span class="data-cell"></span></div>
+                    <div class="data-row"><span class="data-cell"></span><span class="data-cell"></span><span class="data-cell"></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="merge-visual__arrow">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 24h24M30 18l6 6-6 6" stroke="#0047FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="merge-visual__output">
+                <div class="output-stack">
+                  <div class="output-doc output-doc--3"></div>
+                  <div class="output-doc output-doc--2"></div>
+                  <div class="output-doc output-doc--1">
+                    <div class="output-doc__line output-doc__line--name"></div>
+                    <div class="output-doc__line"></div>
+                    <div class="output-doc__line output-doc__line--short"></div>
+                  </div>
+                </div>
+                <span class="output-label">Personalized Documents</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WORKFLOW SECTION ========== -->
+    <section class="workflows" aria-labelledby="workflows-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Post-Merge Workflows</span>
+          <h2 id="workflows-heading" class="section-title">Save. Share. Sign. Secure.<br>All on autopilot.</h2>
+          <p class="section-subtitle">
+            Create the ideal post-merge workflow to handle your documents after generation.
+            Define what happens next &mdash; automatically.
+          </p>
+        </div>
+        <div class="workflow-pipeline">
+          <div class="workflow-node">
+            <div class="workflow-node__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4l12 8v12l-12 8-12-8V12l12-8z" stroke="#0047FF" stroke-width="2" stroke-linejoin="round"/><path d="M16 12v8M12 16h8" stroke="#0047FF" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Generate</h4>
+            <p>Bulk create documents from templates</p>
+          </div>
+          <div class="workflow-connector">
+            <svg width="40" height="2" aria-hidden="true"><line x1="0" y1="1" x2="40" y2="1" stroke="#D1D1D1" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="workflow-node">
+            <div class="workflow-node__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 6h16v20H8z" stroke="#5E05FF" stroke-width="2" stroke-linejoin="round"/><path d="M12 16l3 3 5-6" stroke="#5E05FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Review</h4>
+            <p>Verify content and data accuracy</p>
+          </div>
+          <div class="workflow-connector">
+            <svg width="40" height="2" aria-hidden="true"><line x1="0" y1="1" x2="40" y2="1" stroke="#D1D1D1" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="workflow-node">
+            <div class="workflow-node__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 26l6-6 8-8M16 12l4 4M4 28h24" stroke="#F4115D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Sign</h4>
+            <p>Collect e-signatures in order</p>
+          </div>
+          <div class="workflow-connector">
+            <svg width="40" height="2" aria-hidden="true"><line x1="0" y1="1" x2="40" y2="1" stroke="#D1D1D1" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="workflow-node">
+            <div class="workflow-node__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="6" y="6" width="20" height="20" rx="4" stroke="#03FF17" stroke-width="2"/><path d="M16 11v6l4 2" stroke="#03FF17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Deliver</h4>
+            <p>Email, store, or push to apps</p>
+          </div>
+          <div class="workflow-connector">
+            <svg width="40" height="2" aria-hidden="true"><line x1="0" y1="1" x2="40" y2="1" stroke="#D1D1D1" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="workflow-node">
+            <div class="workflow-node__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="8" y="4" width="16" height="24" rx="2" stroke="#FF9E08" stroke-width="2"/><path d="M12 14h8M12 18h6M12 22h4" stroke="#FF9E08" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Archive</h4>
+            <p>Secure storage with audit trails</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INTEGRATIONS SECTION ========== -->
+    <section id="integrations" class="integrations" aria-labelledby="integrations-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Integrations</span>
+          <h2 id="integrations-heading" class="section-title">Connects with the tools<br>your team already uses</h2>
+          <p class="section-subtitle">
+            With connectors available on Zoho Flow and Zapier, add document automation
+            to thousands of apps and workflows with just a couple of clicks.
+          </p>
+        </div>
+        <div class="integration-grid">
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--crm">CRM</div>
+            <span>Zoho CRM</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--flow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12c4-8 12-8 16 0-4 8-12 8-16 0z" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <span>Zoho Flow</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--zapier">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <span>Zapier</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--sheets">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <span>Sheets</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--mail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2"/><path d="M2 4l10 8 10-8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <span>Mail</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--drive">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L2 19h20L12 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <span>WorkDrive</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--sign">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20l4-4 8-8 4 4-8 8-4 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <span>Sign</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-card__icon integration-card__icon--api">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 5l-2 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span>REST API</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== USE CASES SECTION ========== -->
+    <section class="use-cases" aria-labelledby="usecases-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Use Cases</span>
+          <h2 id="usecases-heading" class="section-title">Built for every department,<br>every industry</h2>
+        </div>
+        <div class="usecase-grid">
+          <div class="usecase-card">
+            <div class="usecase-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="4" y="8" width="32" height="24" rx="4" stroke="#0047FF" stroke-width="2"/><path d="M14 20h12M14 24h8" stroke="#0047FF" stroke-width="2" stroke-linecap="round"/><circle cx="10" cy="16" r="2" fill="#0047FF"/></svg>
+            </div>
+            <h3>Legal &amp; Compliance</h3>
+            <p>Contracts, NDAs, compliance forms, and regulatory documents with audit trails.</p>
+          </div>
+          <div class="usecase-card">
+            <div class="usecase-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="16" r="6" stroke="#5E05FF" stroke-width="2"/><path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="#5E05FF" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Human Resources</h3>
+            <p>Offer letters, appraisal letters, payslips, and onboarding documents at scale.</p>
+          </div>
+          <div class="usecase-card">
+            <div class="usecase-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v12l8 4-8 4v12" stroke="#FF9E08" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 16l12 4 12-4" stroke="#FF9E08" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Sales &amp; Marketing</h3>
+            <p>Proposals, invoices, quotes, and personalized client communications.</p>
+          </div>
+          <div class="usecase-card">
+            <div class="usecase-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="6" y="6" width="28" height="28" rx="4" stroke="#F4115D" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke="#F4115D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Insurance &amp; Finance</h3>
+            <p>Policy documents, claims forms, tax forms, and financial reports.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-card">
+          <h2 id="cta-heading" class="cta-card__title">Ready to eliminate paperwork?</h2>
+          <p class="cta-card__description">
+            Join thousands of businesses that have transformed their document workflows.
+            Start your free trial today &mdash; no credit card required.
+          </p>
+          <div class="cta-card__actions">
+            <a href="#" class="btn btn--primary btn--lg">
+              Get Started Free
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#" class="btn btn--tertiary btn--lg">Talk to Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo" aria-label="Zoho Writer Home">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <rect width="32" height="32" rx="8" fill="#0047FF"/>
+              <path d="M8 12L14 20H8L14 12H20L14 20H20L14 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Zoho <strong>Writer</strong></span>
+          </a>
+          <p class="footer__tagline">More than a word processor. Your ticket to faster, smoother work.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4>Product</h4>
+            <ul role="list">
+              <li><a href="#">Document Automation</a></li>
+              <li><a href="#">eSignature</a></li>
+              <li><a href="#">Mail Merge</a></li>
+              <li><a href="#">Forms</a></li>
+              <li><a href="#">Workflow</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4>Resources</h4>
+            <ul role="list">
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">API Reference</a></li>
+              <li><a href="#">Templates Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4>Company</h4>
+            <ul role="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Zoho Corporation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggle = document.querySelector('.nav__toggle');
+      var links = document.querySelector('.nav__links');
+      var actions = document.querySelector('.nav__actions');
+
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          var expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          this.classList.toggle('nav__toggle--active');
+          if (links) links.classList.toggle('nav__links--open');
+          if (actions) actions.classList.toggle('nav__actions--open');
+        });
+      }
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+        anchor.addEventListener('click', function(e) {
+          var targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          var target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+
+      // Header scroll effect
+      var header = document.querySelector('.site-header');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 40) {
+          header.classList.add('site-header--scrolled');
+        } else {
+          header.classList.remove('site-header--scrolled');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
