@@ -2754,6 +2754,3 @@ module.exports = { theme: { extend: {
 ```
 
 ---
-
-*Generated on 2026-04-19 by **DesignOps Tools: DesignBridge v2.0** from "ODS_Guideline".*
-*[designops.tools](https://designops.tools) — Bridge your Figma design system to any AI tool.*
