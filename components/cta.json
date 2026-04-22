@@ -5,60 +5,49 @@
     "nodeId": "4754:1968",
     "url": "https://www.figma.com/design/uddrCFCslgueV4AzTXScnP/ODS_Guideline?node-id=4754-1968"
   },
+  "tokenFormat": {
+    "description": "Color and typography values use token references in the form {path.to.token}. Resolvers should look these up in tokens/color/colors.json, tokens/typography/typography.json, etc. Each reference is also accompanied by a resolved `*_resolved` field for convenience — but the reference is the source of truth.",
+    "example": "{colors.blue.500} resolves to #0047FF from tokens/color/colors.json"
+  },
   "variants": {
     "primary": {
       "name": "Primary",
       "description": "Solid blue button for primary actions",
       "sizes": {
-        "xs": {
-          "padding": "12px 16px",
-          "gap": "16px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "sm": {
-          "padding": "16px 24px",
-          "gap": "12px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "56px"
-        },
-        "md": {
-          "padding": "20px 24px",
-          "gap": "12px",
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "lg": {
-          "padding": "24px 32px",
-          "gap": "12px",
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "borderRadius": "4px",
-          "height": "auto"
-        }
+        "xs": { "padding": "12px 16px", "gap": "16px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "auto" },
+        "sm": { "padding": "16px 24px", "gap": "12px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "56px" },
+        "md": { "padding": "20px 24px", "gap": "12px", "fontSize": "20px", "lineHeight": "28px", "borderRadius": "4px", "height": "auto" },
+        "lg": { "padding": "24px 32px", "gap": "12px", "fontSize": "24px", "lineHeight": "32px", "borderRadius": "4px", "height": "auto" }
       },
       "states": {
         "default": {
-          "backgroundColor": "#0047FF",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.blue.500}",
+          "color": "{colors.white.500}",
           "border": "none"
         },
         "hover": {
-          "backgroundColor": "#003ACC",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.blue.600}",
+          "color": "{colors.white.500}",
           "border": "none",
           "cursor": "pointer"
         },
         "active": {
-          "backgroundColor": "#012B99",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.blue.700}",
+          "color": "{colors.white.500}",
           "border": "none"
+        },
+        "focus": {
+          "backgroundColor": "{colors.blue.500}",
+          "color": "{colors.white.500}",
+          "border": "none",
+          "outline": "2px solid {colors.blue.500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "backgroundColor": "{colors.grey.200}",
+          "color": "{colors.grey.500}",
+          "border": "none",
+          "cursor": "not-allowed"
         }
       }
     },
@@ -66,55 +55,40 @@
       "name": "Primary Line",
       "description": "Outlined blue button for secondary primary actions",
       "sizes": {
-        "xs": {
-          "padding": "12px 16px",
-          "gap": "16px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "sm": {
-          "padding": "16px 24px",
-          "gap": "12px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "56px"
-        },
-        "md": {
-          "padding": "20px 24px",
-          "gap": "12px",
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "lg": {
-          "padding": "24px 32px",
-          "gap": "12px",
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "borderRadius": "4px",
-          "height": "auto"
-        }
+        "xs": { "padding": "12px 16px", "gap": "16px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "auto" },
+        "sm": { "padding": "16px 24px", "gap": "12px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "56px" },
+        "md": { "padding": "20px 24px", "gap": "12px", "fontSize": "20px", "lineHeight": "28px", "borderRadius": "4px", "height": "auto" },
+        "lg": { "padding": "24px 32px", "gap": "12px", "fontSize": "24px", "lineHeight": "32px", "borderRadius": "4px", "height": "auto" }
       },
       "states": {
         "default": {
           "backgroundColor": "transparent",
-          "color": "#0047FF",
-          "border": "2px solid #0047FF"
+          "color": "{colors.blue.500}",
+          "border": "2px solid {colors.blue.500}"
         },
         "hover": {
-          "backgroundColor": "rgba(7, 7, 180, 0.1)",
-          "color": "#0A0AFF",
-          "border": "2px solid rgba(10, 10, 255, 0.8)",
+          "backgroundColor": "{colors.blue.50}",
+          "color": "{colors.blue.600}",
+          "border": "2px solid {colors.blue.600}",
           "cursor": "pointer"
         },
         "active": {
-          "backgroundColor": "rgba(7, 7, 180, 0.2)",
-          "color": "#0A0AFF",
-          "border": "2px solid rgba(10, 10, 255, 0.8)"
+          "backgroundColor": "{colors.blue.100}",
+          "color": "{colors.blue.700}",
+          "border": "2px solid {colors.blue.700}"
+        },
+        "focus": {
+          "backgroundColor": "transparent",
+          "color": "{colors.blue.500}",
+          "border": "2px solid {colors.blue.500}",
+          "outline": "2px solid {colors.blue.500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "backgroundColor": "transparent",
+          "color": "{colors.grey.300}",
+          "border": "2px solid {colors.grey.300}",
+          "cursor": "not-allowed"
         }
       }
     },
@@ -122,55 +96,40 @@
       "name": "Secondary",
       "description": "Solid black button for secondary actions",
       "sizes": {
-        "xs": {
-          "padding": "12px 16px",
-          "gap": "16px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "sm": {
-          "padding": "16px 24px",
-          "gap": "12px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "56px"
-        },
-        "md": {
-          "padding": "20px 24px",
-          "gap": "12px",
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "lg": {
-          "padding": "24px 32px",
-          "gap": "12px",
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "borderRadius": "4px",
-          "height": "auto"
-        }
+        "xs": { "padding": "12px 16px", "gap": "16px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "auto" },
+        "sm": { "padding": "16px 24px", "gap": "12px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "56px" },
+        "md": { "padding": "20px 24px", "gap": "12px", "fontSize": "20px", "lineHeight": "28px", "borderRadius": "4px", "height": "auto" },
+        "lg": { "padding": "24px 32px", "gap": "12px", "fontSize": "24px", "lineHeight": "32px", "borderRadius": "4px", "height": "auto" }
       },
       "states": {
         "default": {
-          "backgroundColor": "#000000",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.black.500}",
+          "color": "{colors.white.500}",
           "border": "none"
         },
         "hover": {
-          "backgroundColor": "#383838",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.grey.800}",
+          "color": "{colors.white.500}",
           "border": "none",
           "cursor": "pointer"
         },
         "active": {
-          "backgroundColor": "#262626",
-          "color": "#FFFFFF",
+          "backgroundColor": "{colors.grey.900}",
+          "color": "{colors.white.500}",
           "border": "none"
+        },
+        "focus": {
+          "backgroundColor": "{colors.black.500}",
+          "color": "{colors.white.500}",
+          "border": "none",
+          "outline": "2px solid {colors.blue.500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "backgroundColor": "{colors.grey.200}",
+          "color": "{colors.grey.500}",
+          "border": "none",
+          "cursor": "not-allowed"
         }
       }
     },
@@ -178,55 +137,40 @@
       "name": "Secondary Line",
       "description": "Outlined black button for secondary outlined actions",
       "sizes": {
-        "xs": {
-          "padding": "12px 16px",
-          "gap": "16px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "sm": {
-          "padding": "16px 24px",
-          "gap": "12px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "56px"
-        },
-        "md": {
-          "padding": "20px 24px",
-          "gap": "12px",
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "lg": {
-          "padding": "24px 32px",
-          "gap": "12px",
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "borderRadius": "4px",
-          "height": "auto"
-        }
+        "xs": { "padding": "12px 16px", "gap": "16px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "auto" },
+        "sm": { "padding": "16px 24px", "gap": "12px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "56px" },
+        "md": { "padding": "20px 24px", "gap": "12px", "fontSize": "20px", "lineHeight": "28px", "borderRadius": "4px", "height": "auto" },
+        "lg": { "padding": "24px 32px", "gap": "12px", "fontSize": "24px", "lineHeight": "32px", "borderRadius": "4px", "height": "auto" }
       },
       "states": {
         "default": {
           "backgroundColor": "transparent",
-          "color": "#000000",
-          "border": "2px solid #000000"
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}"
         },
         "hover": {
-          "backgroundColor": "#EBEBEB",
-          "color": "#000000",
-          "border": "2px solid #000000",
+          "backgroundColor": "{colors.grey.100}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}",
           "cursor": "pointer"
         },
         "active": {
-          "backgroundColor": "#D1D1D1",
-          "color": "#000000",
-          "border": "2px solid #000000"
+          "backgroundColor": "{colors.grey.200}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}"
+        },
+        "focus": {
+          "backgroundColor": "transparent",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}",
+          "outline": "2px solid {colors.blue.500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "backgroundColor": "transparent",
+          "color": "{colors.grey.300}",
+          "border": "2px solid {colors.grey.300}",
+          "cursor": "not-allowed"
         }
       }
     },
@@ -234,55 +178,40 @@
       "name": "Tertiary",
       "description": "White button with border for tertiary actions",
       "sizes": {
-        "xs": {
-          "padding": "12px 16px",
-          "gap": "16px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "sm": {
-          "padding": "16px 24px",
-          "gap": "12px",
-          "fontSize": "16px",
-          "lineHeight": "24px",
-          "borderRadius": "4px",
-          "height": "56px"
-        },
-        "md": {
-          "padding": "20px 24px",
-          "gap": "12px",
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "borderRadius": "4px",
-          "height": "auto"
-        },
-        "lg": {
-          "padding": "24px 32px",
-          "gap": "12px",
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "borderRadius": "4px",
-          "height": "auto"
-        }
+        "xs": { "padding": "12px 16px", "gap": "16px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "auto" },
+        "sm": { "padding": "16px 24px", "gap": "12px", "fontSize": "16px", "lineHeight": "24px", "borderRadius": "4px", "height": "56px" },
+        "md": { "padding": "20px 24px", "gap": "12px", "fontSize": "20px", "lineHeight": "28px", "borderRadius": "4px", "height": "auto" },
+        "lg": { "padding": "24px 32px", "gap": "12px", "fontSize": "24px", "lineHeight": "32px", "borderRadius": "4px", "height": "auto" }
       },
       "states": {
         "default": {
-          "backgroundColor": "#FFFFFF",
-          "color": "#000000",
-          "border": "2px solid #000000"
+          "backgroundColor": "{colors.white.500}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}"
         },
         "hover": {
-          "backgroundColor": "#F5F5F5",
-          "color": "#000000",
-          "border": "2px solid #000000",
+          "backgroundColor": "{colors.grey.50}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}",
           "cursor": "pointer"
         },
         "active": {
-          "backgroundColor": "#EBEBEB",
-          "color": "#000000",
-          "border": "2px solid #000000"
+          "backgroundColor": "{colors.grey.100}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}"
+        },
+        "focus": {
+          "backgroundColor": "{colors.white.500}",
+          "color": "{colors.black.500}",
+          "border": "2px solid {colors.black.500}",
+          "outline": "2px solid {colors.blue.500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "backgroundColor": "{colors.white.500}",
+          "color": "{colors.grey.300}",
+          "border": "2px solid {colors.grey.200}",
+          "cursor": "not-allowed"
         }
       }
     }
@@ -293,8 +222,8 @@
     "position": "right"
   },
   "typography": {
-    "fontFamily": "Zoho Puvi",
-    "fontWeight": 500,
+    "fontFamily": "{typography.fontFamily.name}",
+    "fontWeight": "{typography.fontWeights.medium}",
     "fontStyle": "Medium",
     "textAlign": "center",
     "letterSpacing": {
@@ -305,14 +234,13 @@
     }
   },
   "spacing": {
-    "sm3": "12px",
-    "sm4": "16px",
-    "sm5": "20px",
-    "md1": "24px",
-    "md2": "32px"
+    "sm3": "{spacing.tokens.Sm- 3}",
+    "sm4": "{spacing.tokens.Sm- 4}",
+    "sm5": "{spacing.tokens.Sm- 5}",
+    "md1": "{spacing.tokens.Md- 1}",
+    "md2": "{spacing.tokens.Md- 2}"
   },
   "borderRadius": {
     "sm": "4px"
   }
 }
-
